@@ -62,7 +62,9 @@ while (ourLists !== 0) {
         break;
 
         default:
+          alert("You only can choose the number in the lists.");
     }
+
     ourLists = Number(prompt(`Choose an option here: 
 
 1: Do you want to see all of the links?
